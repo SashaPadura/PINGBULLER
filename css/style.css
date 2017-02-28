@@ -1,0 +1,1509 @@
+body {
+    background-image: url(../img/bg.png);
+    background-size: 2400px 900px;
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 0 0;
+}
+
+.pol_zagal {
+    width: 960px;
+    margin: auto;
+}
+
+.nazva {
+    font-family: "LeagueGothicRegular";
+    margin-top: 82px;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.nazva1 {
+    color: white;
+    float: left;
+}
+
+.nazva2 {
+    float: left;
+    color: rgb(85, 60, 97)
+}
+
+.nav {
+    margin-top: -47px;
+    margin-right: 5px;
+    color: white;
+    width: 635px;
+    clear: both;
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 24px;
+    font-family: "LeagueGothicRegular";
+}
+
+.n_home {
+    border-bottom: 2px solid rgb(237, 191, 255);
+    padding: 0 5px 5px 7px;
+}
+
+.n_about {}
+
+.n_blog {}
+
+.n_products {}
+
+.n_lorem {}
+
+.n_dolor {}
+
+.header_article {
+    width: 100%;
+    margin: 160px 0 0px 0;
+    background: url(../img/black_nak.png);
+    background-size: 2400px 400px;
+    height: 400px;
+}
+
+.header_article_text {
+    width: 50%;
+    float: left;
+}
+
+.header_article_text1 {
+    color: white;
+    font-size: 60px;
+    padding-top: 70px;
+    font-family: "LeagueGothicRegular";
+}
+
+.header_article_text2 {
+    color: rgb(237, 191, 255);
+    font-size: 32px;
+    margin-top: -7px;
+    font-family: "LeagueGothicRegular";
+}
+
+.header_article_text3 {
+    color: white;
+    font-size: 18px;
+    padding-bottom: 85px;
+    font-family: "Open Sans Light";
+}
+
+.header_article_photo {
+    background: url(../img/iphone4s.png);
+    background-size: cover;
+    width: 274px;
+    height: 434px;
+    float: left;
+    margin: -16px 0 0 120px;
+}
+
+
+
+
+
+.mid_article {
+    width: 100%;
+    background: url(../img/bg_fiolet.png);
+    background-size: 2400px 340px;
+    min-height: 340px;
+    margin: 165px 0 0 0;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.52);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.52);
+}
+
+.mid_article1,
+.mid_article3,
+.mid_article2 {
+    width: 320px;
+    float: left;
+    margin: 77px 0 0 0px;
+}
+
+.mid_article_pic1 {
+    float: left;
+    background: url(../img/pic_key.png);
+    background-size: 30px 31px;
+    width: 30px;
+    height: 31px;
+    margin: 9px 0 0 10px;
+}
+
+.mid_article_pic2 {
+    float: left;
+    background: url(../img/pic_sink.png);
+    background-size: 33px 29px;
+    width: 33px;
+    height: 29px;
+    margin: 9px 0 0 30px;
+}
+
+.mid_article_pic3 {
+    float: left;
+    background: url(../img/pic_nota.png);
+    background-size: 29px 31px;
+    width: 29px;
+    height: 31px;
+    margin: 9px 0 0 43px;
+}
+
+.mid_article_zag {
+    font-family: "LeagueGothicRegular";
+    font-size: 30px;
+    color: white;
+    margin: -2px 0 0 15px;
+}
+
+.mid_article_zag_w1 {
+    float: right;
+    width: 270px;
+}
+
+.mid_article_zag_w2 {
+    float: right;
+    width: 250px;
+}
+
+.mid_article_zag_w3 {
+    float: right;
+    width: 245px;
+}
+
+.mid_article_text1,
+.mid_article_text2,
+.mid_article_text3 {
+    font-family: "Open Sans Light";
+    color: white;
+    font-size: 16px;
+    margin: 5px 0 0 15px;
+    line-height: 1.5;
+}
+
+.mid_article_read1,
+.mid_article_read2,
+.mid_article_read3 {
+    font-size: 18px;
+    font-family: "LeagueGothicRegular";
+    clear: both;
+    color: white;
+    float: left;
+}
+
+.mid_article_read1 {
+    text-shadow: 1px 0px 9px rgba(255, 255, 255, 1);
+    margin: 18px 0 0 220px;
+}
+
+.mid_article_read2 {
+    margin: 18px 0 0 250px;
+}
+
+.mid_article_read3 {
+    margin: 18px 0 0 260px;
+}
+
+.mid_article_2 {
+    width: 100%;
+    background: url(../img/bg_article2.png);
+    background-size: 2321px 971px;
+    margin: 0px 0 0 0;
+}
+
+.mid_article2_left {
+    float: left;
+    width: 40%;
+}
+
+.mid_article2_left_bg {
+    background: url(../img/bg_man.png);
+    background-size: 429px 294px;
+    height: 294px;
+    width: 429px;
+    float: left;
+    margin: 105px 0 0 20px;
+}
+
+.mid_article2_left_foto {
+    background: url(../img/fotomen.png);
+    background-size: 50px 50px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin: 15px 0 0 -20px;
+}
+
+.mid_article2_left_zag,
+.mid_article2_left_zag2 {
+    font-family: "LeagueGothicRegular";
+    font-size: 30px;
+}
+
+.mid_article2_left_zag {
+    margin: 25px 0 0 40px;
+}
+
+.mid_article2_left_zag2 {
+    color: #f2d1ff;
+}
+
+.mid_article2_left_text {
+    clear: both;
+    margin: 5px 0 0 40px;
+    font-family: "Open Sans Light";
+    font-size: 16px;
+    width: 350px;
+    line-height: 1.5;
+}
+
+
+
+.mid_article2_right {
+    float: right;
+    width: 50%;
+}
+
+.mid_article2_right_zag {
+    margin: 130px 0 0 35px;
+    ;
+    font-size: 30px;
+    font-family: "LeagueGothicRegular";
+}
+
+.mid_article2_right_pol_kol_zag {
+    font-size: 16px;
+    font-family: "Open Sans Light";
+    font-weight: 900;
+    float: left;
+    margin: 14px 0 0 15px;
+}
+
+.mid_article2_right_pol_kol_text {
+    font-size: 16px;
+    font-family: "Open Sans Light";
+    float: left;
+    margin: 5px 0 5px 15px;
+}
+
+.mid_article2_right_pol_kol_pic1 {
+    float: left;
+    background: url(../img/spait_article2.png) no-repeat;
+    background-position: 0 -125px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin: 11px 0 0 35px;
+}
+
+.mid_article2_right_pol_kol_pic2 {
+    clear: both;
+    float: left;
+    background: url(../img/spait_article2.png) no-repeat;
+    background-position: 0 -90px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin: 17px 0 0 35px;
+}
+
+.mid_article2_right_pol_kol_pic3 {
+    clear: both;
+    float: left;
+    background: url(../img/spait_article2.png) no-repeat;
+    background-position: 0 -100px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin: 16px 0 0 35px;
+}
+
+.mid_article2_footer {
+    width: 100%;
+}
+
+.mid_article2_footer_line {
+    margin: 70px 0px 0 0;
+    border-top: 1px solid #e6e6e6;
+}
+
+.mid_article2_footer_sprait1 {
+    background: url(../img/sprait.png) no-repeat;
+    height: 64px;
+    width: 68px;
+    float: left;
+    margin: 25px 0 0 85px;
+    padding-bottom: 32px;
+}
+
+.mid_article2_footer_sprait2 {
+    background: url(../img/sprait.png) no-repeat;
+    background-position: -134px 0px;
+    height: 64px;
+    width: 73px;
+    float: left;
+    margin: 25px 0 0 65px;
+}
+
+.mid_article2_footer_sprait3 {
+    background: url(../img/sprait.png) no-repeat;
+    background-position: -270px 0px;
+    height: 64px;
+    width: 73px;
+    float: left;
+    margin: 25px 0 0 65px;
+}
+
+.mid_article2_footer_sprait4 {
+    background: url(../img/sprait.png) no-repeat;
+    background-position: -410px 0px;
+    height: 64px;
+    width: 73px;
+    float: left;
+    margin: 25px 0 0 65px;
+}
+
+.mid_article2_footer_sprait5 {
+    background: url(../img/sprait.png) no-repeat;
+    background-position: -527px 0px;
+    height: 64px;
+    width: 102px;
+    float: left;
+    margin: 25px 0 0 45px;
+}
+
+.mid_article2_footer_sprait6 {
+    background: url(../img/sprait.png) no-repeat;
+    background-position: -696px 0px;
+    height: 64px;
+    width: 102px;
+    float: left;
+    margin: 25px 0 0 65px;
+}
+
+.article_footer {
+    background: url(../img/footer_bg2.png) no-repeat;
+    width: 100%;
+    min-height: 398px;
+    -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.52);
+    -moz-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.52);
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.52);
+}
+
+.article_footer_1 {
+    width: 33%;
+    float: left;
+}
+
+.article_footer_2 {
+    width: 33%;
+    float: left;
+}
+
+.article_footer_3 {
+    width: 33%;
+    float: left;
+}
+
+.article_footer_zag1 {
+    font-family: "LeagueGothicRegular";
+    font-size: 48px;
+    margin: 90px 0 0 0;
+}
+
+.article_footer_zag1_er {
+    color: #b9b9b9;
+}
+
+.article_footer_zag12 {
+    color: #c5c5c5;
+    font-family: georgia;
+    font-style: italic;
+    margin: 7px 0 0 0;
+    font-weight: 100;
+}
+
+.article_footer_zag2 {
+    font-family: "LeagueGothicRegular";
+    font-size: 30px;
+    margin: 92px 0 0 25px;
+}
+
+.article_footer_zag3 {
+    font-family: "LeagueGothicRegular";
+    font-size: 30px;
+    margin: 92px 0 0 50px;
+}
+
+.article_footer_txt1 {
+    font-family: "Open Sans Light";
+    font-size: 16px;
+    margin: 10px 0 0 0;
+    padding-right: 30px;
+    line-height: 1.5;
+}
+
+.article_footer_txt2 {
+    font-family: "Open Sans Light";
+    font-size: 16px;
+    margin: 7px 0 0 25px;
+    line-height: 1.5;
+    padding-right: 20px;
+}
+
+.article_footer_txt3 {
+    font-family: "Open Sans Light";
+    font-size: 16px;
+    margin: 7px 0 0 50px;
+    line-height: 1.5;
+}
+
+.footer_desing {
+    font-family: "Open Sans Light";
+    font-size: 12px;
+    float: left;
+    margin: 50px 0 0 290px;
+    color: white;
+}
+
+.footer_desing_span {
+    font-family: aria;
+    color: white;
+    font-weight: 900;
+}
+
+.footer_nav {
+    width: 100%;
+    background: url(../img/footer_bg.png) no-repeat;
+    background-size: 2400px 114px;
+    height: 114px;
+}
+
+.nav_f {
+    margin: 43px 0 0 0px;
+    color: white;
+    width: 530px;
+    clear: both;
+    float: left;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: "LeagueGothicRegular";
+}
+
+@media screen and (min-width: 960px) {
+    .del_before_960 {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 960px) and (min-width: 768px) {
+    .del_arter_960 {
+        display: none;
+    }
+    .pol_zagal {
+        width: 768px;
+        margin: auto;
+    }
+    .nav {
+        margin: 0px 0 0 0;
+        padding: 20px 0 0 0px;
+        float: none;
+        clear: both;
+    }
+    .header_article {
+        margin: 70px 0 0px 0px;
+        height: 400px;
+    }
+    .header_article_text {
+        width: 45%;
+        float: left;
+    }
+    .header_article_text1 {
+        font-size: 48px;
+        padding-top: 93px;
+        margin-left: 35px;
+    }
+    .header_article_text2 {
+        font-size: 24px;
+        margin-top: 0px;
+        margin-left: 35px;
+    }
+    .header_article_text3 {
+        font-size: 16px;
+        padding-bottom: 85px;
+        margin-left: 35px;
+        margin-top: 7px;
+        line-height: 1.6;
+    }
+    .header_article_photo {
+        margin: -24px 0 0 100px;
+    }
+  
+  
+    .mid_article {
+        margin: 155px 0 0 0;
+    }
+    .mid_article1,
+    .mid_article3,
+    .mid_article2 {
+        width: 242px;
+        float: left;
+        margin: 77px 0 0 0px;
+    }
+    .mid_article_pic1 {
+        float: left;
+        margin: 5px 0 0 20px;
+    }
+    .mid_article_pic2 {
+        float: left;
+        background: url(../img/pic_key.png);
+        background-size: 30px 31px;
+        width: 30px;
+        height: 31px;
+        margin: 5px 0 0 30px;
+    }
+    .mid_article_pic3 {
+        float: left;
+        background: url(../img/pic_key.png);
+        background-size: 30px 31px;
+        width: 30px;
+        height: 31px;
+        margin: 5px 0 0 50px;
+    }
+    .mid_article_zag {
+        font-size: 24px;
+        margin: 0 0;
+    }
+    .mid_article_zag_w1 {
+        float: right;
+        width: 165px;
+        margin: 0 0 0 20px;
+    }
+    .mid_article_zag_w2 {
+        float: right;
+        width: 160px;
+    }
+    .mid_article_zag_w3 {
+        float: right;
+        width: 158px;
+        margin: 0 -20px 0 0;
+    }
+    .mid_article_text1,
+    .mid_article_text2,
+    .mid_article_text3 {
+        margin: 0 0;
+        line-height: 1.5;
+    }
+    .mid_article_read1,
+    .mid_article_read2,
+    .mid_article_read3 {
+        clear: both;
+        float: left;
+    }
+    .mid_article_read1 {
+        margin: 8px 0 0 170px;
+    }
+    .mid_article_read2 {
+        margin: 8px 0 0 175px;
+    }
+    .mid_article_read3 {
+        margin: 8px 0 0 186px;
+    }
+    /*    */
+    .mid_article2_left_bg {
+        background: url(../img/bg_man.png);
+        background-size: 429px 294px;
+        height: 294px;
+        width: 310px;
+        float: left;
+        margin: 105px 0 0 30px;
+    }
+    .mid_article2_left_foto {
+        background: url(../img/fotomen.png);
+        background-size: 50px 50px;
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin: 15px 0 0 -20px;
+    }
+    .mid_article2_left_zag,
+    .mid_article2_left_zag2 {
+        font-family: "LeagueGothicRegular";
+        font-size: 24px;
+    }
+    .mid_article2_left_zag {
+        margin: 25px 0 0 40px;
+    }
+    .mid_article2_left_zag2 {
+        margin: 0px 0 0 40px;
+    }
+    .mid_article2_left_text {
+        width: 260px;
+    }
+  
+    .mid_article2_right_zag {
+        margin: 130px 0 0 40px;
+    }
+    .mid_article2_right_pol_kol_zag {
+        margin: 15px 0 0 15px;
+    }
+    .mid_article2_right_pol_kol_text {
+        margin: 5px 0 8px 15px;
+    }
+    .mid_article2_right_pol_kol_pic1 {
+        margin: 11px 0 0 40px;
+    }
+    .mid_article2_right_pol_kol_pic2 {
+        margin: 14px 0 0 40px;
+    }
+    .mid_article2_right_pol_kol_pic3 {
+        margin: 14px 0 0 40px;
+    }
+    .mid_article2_footer_sprait1 {
+        margin: 25px 0 0 10px;
+    }
+    .mid_article2_footer_sprait2 {
+        margin: 25px 0 0 60px;
+    }
+    .mid_article2_footer_sprait3 {
+        margin: 25px 0 0 55px;
+    }
+    .mid_article2_footer_sprait4 {
+        margin: 25px 0 0 50px;
+    }
+    .mid_article2_footer_sprait5 {
+        margin: 25px 0 0 40px;
+    }
+    .mid_article2_footer_sprait6 {
+        margin: 25px 0px 0 50px;
+    }
+    /*    */
+    .article_footer {
+        min-height: 400px;
+    }
+    .article_footer_1 {
+        width: 31%;
+        float: left;
+        margin: 10px 0 0 10px;
+    }
+    .article_footer_2 {
+        width: 31%;
+        float: left;
+        margin: 7px 0 0 40px;
+    }
+    .article_footer_3 {
+        width: 31%;
+        float: left;
+        margin: 10px -0 0 0px;
+    }
+    .article_footer_zag1 {
+        font-family: "LeagueGothicRegular";
+        font-size: 24px;
+        margin: 90px 0 0 0;
+    }
+    .article_footer_zag2 {
+        font-family: "LeagueGothicRegular";
+        font-size: 24px;
+        margin: 92px 0 0 0px;
+    }
+    .article_footer_zag3 {
+        font-family: "LeagueGothicRegular";
+        font-size: 24px;
+        margin: 92px 0 0 00px;
+    }
+    .article_footer_txt1 {
+        margin: 0 0;
+        padding-right: 0px;
+        line-height: 1.5;
+    }
+    .article_footer_txt2 {
+        margin: 0 0;
+        line-height: 1.5;
+        padding-right: 0;
+    }
+    .article_footer_txt3 {
+        margin: 0 0;
+        line-height: 1.5;
+    }
+    .footer_nav {
+        background-size: 2400px 200px;
+        height: 200px;
+    }
+    .nav_f {
+        margin: 40px 0 0 10px;
+    }
+    .footer_desing {
+        float: left;
+        margin: 35px 0 0 620px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 480px) {
+    .del_arter_960,
+    .del_arter_768 {
+        display: none;
+    }
+    .del480 {
+        display: none;
+    }
+    .back480 {
+        display: inline-block;
+    }
+    .pol_zagal {
+        width: 480px;
+        margin: auto;
+    }
+    .nazva {
+        margin-top: 97px;
+        margin-left: 160px;
+        text-align: center;
+        font-size: 48px;
+    }
+    .nav {
+        margin: 13px 0 0 0;
+        width: 480px;
+        text-align: center;
+        display: block;
+    }
+    .n_home {
+        margin-left: 115px;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 2px solid rgb(237, 191, 255);
+        padding: 0 5px 5px 7px;
+        background: #36293e;
+        width: 235px;
+        height: 30px;
+        position: absolute;
+        z-index: 10;
+    }
+    .n_about {
+        margin-left: 115px;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 2px solid rgb(237, 191, 255);
+        padding: 0 5px 5px 7px;
+        background: #36293e;
+        width: 235px;
+        height: 30px;
+        position: absolute;
+    }
+    .n_blog {
+        margin-left: 115px;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 2px solid rgb(237, 191, 255);
+        padding: 0 5px 5px 7px;
+        background: #36293e;
+        width: 235px;
+        height: 30px;
+        position: absolute;
+    }
+    .n_products {
+        margin-left: 115px;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 2px solid rgb(237, 191, 255);
+        padding: 0 5px 5px 7px;
+        background: #36293e;
+        width: 235px;
+        height: 30px;
+        position: absolute;
+    }
+    .n_lorem {
+        margin-left: 115px;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 2px solid rgb(237, 191, 255);
+        padding: 0 5px 5px 7px;
+        background: #36293e;
+        width: 235px;
+        height: 30px;
+        position: absolute;
+    }
+    .n_dolor {
+        margin-left: 115px;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 2px solid rgb(237, 191, 255);
+        padding: 0 5px 5px 7px;
+        background: #36293e;
+        width: 235px;
+        height: 30px;
+        position: absolute;
+    }
+    .nav:hover .n_about {
+        top: 205px;
+        border-radius: 0 0;
+    }
+    .nav:hover .n_blog {
+        top: 235px;
+        border-radius: 0 0;
+    }
+    .nav:hover .n_products {
+        top: 265px;
+        border-radius: 0 0;
+    }
+    .nav:hover .n_lorem {
+        top: 295px;
+        border-radius: 0 0;
+    }
+    .nav:hover .n_dolor {
+        top: 325px;
+        border-radius: 0 0 10px 10px;
+    }
+    .header_article {
+        margin: 70px 0 0px 0px;
+        height: 250px;
+    }
+    .header_article_text {
+        width: 50%;
+        float: left;
+    }
+    .header_article_text1 {
+        font-size: 36px;
+        padding-top: 90px;
+        margin-left: 40px;
+    }
+    .header_article_text2 {
+        font-size: 18px;
+        margin-top: -3px;
+        margin-left: 37px;
+    }
+    .header_article_photo {
+        background: url(../img/iphone_mini.png);
+        width: 192px;
+        height: 305px;
+        float: right;
+        margin: -10px 30px 0 0;
+    }
+    
+   
+    .mid_article {
+        margin: 95px 0 0 0;
+        background: url(../img/fiolet_bg_mini.png);
+        height: 600px;
+        background-repeat: no-repeat;
+    }
+    .mid_article1,
+    .mid_article3,
+    .mid_article2 {
+        width: 480px;
+        float: none;
+        clear: both;
+    }
+    .mid_article_pic1 {
+        float: left;
+        margin: 80px 0 0 33px;
+    }
+    .mid_article_pic2 {
+        float: left;
+        background: url(../img/pic_key.png);
+        background-size: 30px 31px;
+        width: 30px;
+        height: 31px;
+        margin: 25px 0 0 33px;
+    }
+    .mid_article_pic3 {
+        float: left;
+        background: url(../img/pic_key.png);
+        background-size: 30px 31px;
+        width: 30px;
+        height: 31px;
+        margin: 25px 0 0 33px;
+    }
+    .mid_article_zag {
+        font-size: 24px;
+        margin: 0 0;
+    }
+    .mid_article_zag_w1 {
+        float: left;
+        width: 390px;
+        margin: 77px 0 0 20px;
+    }
+    .mid_article_zag_w2 {
+        float: left;
+        width: 390px;
+        margin: 20px 0 0 20px;
+    }
+    .mid_article_zag_w3 {
+        float: left;
+        width: 390px;
+        margin: 20px 0 0 20px;
+    }
+    .mid_article_text1,
+    .mid_article_text2,
+    .mid_article_text3 {
+        margin: 0 0;
+        line-height: 1.5;
+    }
+    .mid_article_read1,
+    .mid_article_read2,
+    .mid_article_read3 {
+        clear: both;
+    }
+    .mid_article_read1 {
+        float: right;
+        margin: 15px 25px 0 0px;
+    }
+    .mid_article_read2 {
+        float: right;
+        margin: 15px 25px 0 0px;
+    }
+    .mid_article_read3 {
+        float: right;
+        margin: 15px 25px 0 0px;
+    }
+    /*    */
+    .mid_article2_left {
+        clear: both;
+        width: 480px;
+        margin-bottom: 45px;
+    }
+    .mid_article_2 {
+        margin: -47px 0 0 0;
+    }
+    .mid_article2_left_bg {
+        background: url(../img/bg_man.png);
+        background-size: 429px 294px;
+        height: 294px;
+        width: 420px;
+        float: left;
+        margin: 70px 0 0px 40px;
+    }
+    .mid_article2_left_foto {
+        background: url(../img/fotomen.png);
+        background-size: 50px 50px;
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin: 15px 0 0 -20px;
+    }
+    .mid_article2_left_zag,
+    .mid_article2_left_zag2 {
+        font-family: "LeagueGothicRegular";
+        font-size: 30px;
+    }
+    .mid_article2_left_zag {
+        margin: 25px 0 0 40px;
+    }
+    .mid_article2_left_text {
+        width: 370px;
+        margin-top: 10px;
+    }
+  
+    .mid_article2_right {
+        float: none;
+        width: 100%;
+    }
+    .mid_article2_right_zag {
+        margin: 45px 0 0 80px;
+    }
+    .mid_article2_right_pol_kol_zag {
+        margin: 13px 0 0 15px;
+    }
+    .mid_article2_right_pol_kol_text {
+        margin: 5px 0 11px 15px;
+    }
+    .mid_article2_right_pol_kol_pic1 {
+        margin: 11px 0 0 83px;
+    }
+    .mid_article2_right_pol_kol_pic2 {
+        margin: 13px 0 0 83px;
+    }
+    .mid_article2_right_pol_kol_pic3 {
+        margin: 12px 0 55px 83px;
+    }
+    .mid_article2_footer_sprait1 {
+        margin: 37px 0 0 80px;
+    }
+    .mid_article2_footer_sprait2 {
+        margin: 37px 0 0 60px;
+    }
+    .mid_article2_footer_sprait3 {
+        margin: 37px 0 0 50px;
+    }
+    .mid_article2_footer_sprait4 {
+        clear: both;
+        margin: -7px 0 40px 70px;
+    }
+    .mid_article2_footer_sprait5 {
+        margin: -7px 0 0 30px;
+    }
+    .mid_article2_footer_sprait6 {
+        margin: -7px 0 0 60px;
+    }
+    /*    */
+    .article_footer {
+        background: url(../img/bg_footer_mini.png);
+        height: 670px;
+        width: 100%;
+    }
+    .article_footer_1 {
+        width: 99%;
+        float: left;
+        margin: 80px 0 0 19px;
+    }
+    .article_footer_2 {
+        width: 99%;
+        float: left;
+        margin: 82px 0 0 15px;
+    }
+    .article_footer_3 {
+        width: 99%;
+        float: left;
+        margin: 30px 0 0 19px;
+    }
+    .article_footer_zag1 {
+        font-family: "LeagueGothicRegular";
+        font-size: 24px;
+        margin: 0px 0 0 0;
+    }
+    .article_footer_zag2 {
+        font-family: "LeagueGothicRegular";
+        font-size: 24px;
+        margin: 0px 0 0 0px;
+    }
+    .article_footer_zag3 {
+        font-family: "LeagueGothicRegular";
+        font-size: 24px;
+        margin: 5px 0 0 00px;
+    }
+    .article_footer_txt1 {
+        margin: 5px 0 0 0;
+        padding-right: 0px;
+        line-height: 1.5;
+    }
+    .article_footer_txt2 {
+        margin: 5px 0 0 0;
+        line-height: 1.5;
+        padding-right: 0;
+    }
+    .article_footer_txt3 {
+        margin: 5px 0 0 0;
+        line-height: 1.5;
+    }
+    .footer_nav {
+        background-size: 2400px 200px;
+        height: 200px;
+    }
+    .nav_f {
+        margin: 43px 0 0 0px;
+        color: white;
+        width: 480px;
+        clear: both;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 20px;
+        font-family: "LeagueGothicRegular";
+    }
+    .footer_desing {
+        margin: 35px 0 0 180px;
+    }
+}
+@media screen and (max-width: 480px) and (min-width: 320px){
+    .del_arter_960,
+    .del_arter_768 {
+        display: none;
+    }
+    .del320 {
+        display: none;
+    }
+    .back320 {
+        display: inline-block;
+    }
+    .pol_zagal {
+        width: 320px;
+        margin: auto;
+    }
+    .nazva {
+        margin-top: 97px;
+        margin-left: 80px;
+        text-align: center;
+        font-size: 48px;
+    }
+    .nav {
+        margin: 10px 0 0 0;
+        width: 100px;
+        text-align: center;
+        display: block;
+    }
+    .n_home {
+        float: none;
+        margin: 0 0 0 -115px;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 2px solid rgb(237, 191, 255);
+        padding: 0 5px 5px 7px;
+        background: #36293e;
+        width: 100px;
+        height: 30px;
+        position: absolute;
+        z-index: 10;
+    }
+    .n_about {
+        margin-left: -115px;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 2px solid rgb(237, 191, 255);
+        padding: 0 5px 5px 7px;
+        background: #36293e;
+        width: 100px;
+        height: 30px;
+        position: absolute;
+    }
+    .n_blog {
+        margin-left: -115px;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 2px solid rgb(237, 191, 255);
+        padding: 0 5px 5px 7px;
+        background: #36293e;
+        width: 100px;
+        height: 30px;
+        position: absolute;
+    }
+    .n_products {
+        margin-left: -115px;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 2px solid rgb(237, 191, 255);
+        padding: 0 5px 5px 7px;
+        background: #36293e;
+        width: 100px;
+        height: 30px;
+        position: absolute;
+    }
+    .n_lorem {
+        margin-left: -115px;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 2px solid rgb(237, 191, 255);
+        padding: 0 5px 5px 7px;
+        background: #36293e;
+        width: 100px;
+        height: 30px;
+        position: absolute;
+    }
+    .n_dolor {
+        margin-left: -115px;
+        border-radius: 10px 10px 0 0;
+        border-bottom: 2px solid rgb(237, 191, 255);
+        padding: 0 5px 5px 7px;
+        background: #36293e;
+        width: 100px;
+        height: 30px;
+        position: absolute;
+        font-size: 19px;
+    }
+    .nav:hover .n_about {
+        top: 200px;
+        border-radius: 0 0;
+    }
+    .nav:hover .n_blog {
+        top: 235px;
+        border-radius: 0 0;
+    }
+    .nav:hover .n_products {
+        top: 265px;
+        border-radius: 0 0;
+    }
+    .nav:hover .n_lorem {
+        top: 295px;
+        border-radius: 0 0;
+    }
+    .nav:hover .n_dolor {
+        top: 325px;
+        border-radius: 0 0 10px 10px;
+    }
+    
+    .header_article {
+        margin: 70px 0 0px 0px;
+        height: 250px;
+        background: none;
+    }
+    .header_article_text {
+        width: 100%;
+        float: left;
+        
+    }
+    .header_article_text1 {
+        font-size: 36px;
+        padding-top: 95px;
+        margin-left: 60px;
+    }
+    .header_article_text2 {
+        font-size: 18px;
+        margin-top: -3px;
+        margin-left: 60px;
+    }
+   
+    
+   
+  
+    .mid_article {
+        margin: 40px 0 0 0;
+        background: url(../img/fiolet_bg_mini.png);
+        height: 600px;
+        background-repeat: no-repeat;
+    }
+    .mid_article1,
+    .mid_article3,
+    .mid_article2 {
+        width: 320px;
+        float: none;
+        clear: both;
+    }
+    .mid_article_pic1 {
+        float: left;
+        margin: 60px 0 0 27px;
+    }
+    .mid_article_pic2 {
+        float: left;
+        background: url(../img/pic_key.png);
+        background-size: 30px 31px;
+        width: 30px;
+        height: 31px;
+        margin: 25px 0 0 33px;
+    }
+    .mid_article_pic3 {
+        float: left;
+        background: url(../img/pic_key.png);
+        background-size: 30px 31px;
+        width: 30px;
+        height: 31px;
+        margin: 35px 0 0 30px;
+    }
+    .mid_article_zag {
+        font-size: 24px;
+        margin: 0 0;
+    }
+    .mid_article_zag_w1 {
+        float: left;
+        width: 200px;
+        margin: 60px 0 0 20px;
+    }
+    .mid_article_zag_w2 {
+        float: left;
+        width: 200px;
+        margin: 20px 0 0 20px;
+    }
+    .mid_article_zag_w3 {
+        float: left;
+        width: 200px;
+        margin: 34px 0 0 20px;
+    }
+    .mid_article_text1,
+    .mid_article_text2,
+    .mid_article_text3 {
+        margin: 0 0;
+        line-height: 1.5;
+    }
+    .mid_article_read1,
+    .mid_article_read2,
+    .mid_article_read3 {
+        clear: both;
+    }
+    .mid_article_read1 {
+        float: right;
+        margin: 15px 25px 0 0px;
+    }
+    .mid_article_read2 {
+        float: right;
+        margin: 15px 25px 0 0px;
+    }
+    .mid_article_read3 {
+        float: right;
+        margin: 15px 25px 0 0px;
+    }
+    /*    */
+    .mid_article2_left {
+        clear: both;
+        width: 320px;
+        margin-bottom: 45px;
+    }
+    .mid_article_2 {
+        margin: -47px 0 0 0;
+    }
+    .mid_article2_left_bg {
+        background: url(../img/bg_man.png);
+        background-size: 429px 294px;
+        height: 294px;
+        width: 260px;
+        float: left;
+        margin: 70px 0 0px 40px;
+    }
+    .mid_article2_left_foto {
+        background: url(../img/fotomen.png);
+        background-size: 50px 50px;
+        width: 50px;
+        height: 50px;
+        float: left;
+        margin: 15px 0 0 -20px;
+    }
+    .mid_article2_left_zag,
+    .mid_article2_left_zag2 {
+        font-family: "LeagueGothicRegular";
+        font-size: 24px;
+        
+    }
+    .mid_article2_left_zag {
+        margin: 15px 0 0 35px;
+    }
+     .mid_article2_left_zag2 {
+        margin: -2px 0 0 35px;
+    }
+    .mid_article2_left_text {
+        width: 230px;
+        
+    }
+  
+    .mid_article2_right {
+        float: none;
+        width: 100%;
+    }
+    .mid_article2_right_zag {
+        margin: 40px 0 0 20px;
+
+    }
+    .mid_article2_right_pol_kol_zag {
+        margin: 20px 0 0 10px;
+        float: left;
+        font-size: 12px
+    }
+    .mid_article2_right_pol_kol_text {
+        margin: 10px 0 10px 10px;
+        float: left;
+        font-size: 12px
+    }
+    .mid_article2_right_pol_kol_pic1 {
+        margin: 11px 0 0 20px;
+    }
+    .mid_article2_right_pol_kol_pic2 {
+        margin: 14px 0 0 20px;
+    }
+    .mid_article2_right_pol_kol_pic3 {
+        margin: 21px 0 55px 20px;
+    }
+    .mid_article2_footer_sprait1 {
+        margin: 40px 0 0 60px;
+    }
+    .mid_article2_footer_sprait2 {
+        margin: 40px 0 0 60px;
+    }
+    .mid_article2_footer_sprait3 {
+        clear: both;
+        margin: 30px 0 0 65px;
+    }
+    .mid_article2_footer_sprait4 {
+        margin: 30px 0 0 65px;
+    }
+    .mid_article2_footer_sprait5 {
+        clear: both;
+        margin: 40px 0 0 40px;
+    }
+    .mid_article2_footer_sprait6 {
+        margin: 40px 0 80px 55px;
+    }
+    /*    */
+    .article_footer {
+        background: url(../img/bg_footer_mini.png);
+        height: 670px;
+        width: 100%;
+    }
+    .article_footer_1 {
+        width: 99%;
+        float: left;
+        margin: 80px 0 0 19px;
+    }
+    .article_footer_2 {
+        width: 99%;
+        float: left;
+        margin: 82px 0 0 15px;
+    }
+    .article_footer_3 {
+        width: 99%;
+        float: left;
+        margin: 30px 0 0 19px;
+    }
+    .article_footer_zag1 {
+        font-family: "LeagueGothicRegular";
+        font-size: 24px;
+        margin: 0px 0 0 0;
+    }
+    .article_footer_zag2 {
+        font-family: "LeagueGothicRegular";
+        font-size: 24px;
+        margin: 0px 0 0 0px;
+    }
+    .article_footer_zag3 {
+        font-family: "LeagueGothicRegular";
+        font-size: 24px;
+        margin: 5px 0 0 00px;
+    }
+    .article_footer_txt1 {
+        margin: 5px 0 0 0;
+        padding-right: 0px;
+        line-height: 1.5;
+    }
+    .article_footer_txt2 {
+        margin: 5px 0 0 0;
+        line-height: 1.5;
+        padding-right: 0;
+    }
+    .article_footer_txt3 {
+        margin: 5px 0 0 0;
+        line-height: 1.5;
+    }
+    .footer_nav {
+        background-size: 2400px 200px;
+        height: 200px;
+    }
+    .nav_f {
+        margin: 43px 0 0 0px;
+        color: white;
+        width: 480px;
+        clear: both;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        font-size: 20px;
+        font-family: "LeagueGothicRegular";
+    }
+    .footer_desing {
+        margin: 35px 0 0 180px;
+    }
+    
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.clearfix::before {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+@font-face {
+    font-family: "LeagueGothicRegular";
+    font-style: normal;
+    src: url(../font/LeagueGothic-Regular.otf);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Open Sans Light";
+    src: url(../font/OpenSans-Light.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+.radio{
+	width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-radius: 3px;
+	
+}
